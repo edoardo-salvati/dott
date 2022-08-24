@@ -24,6 +24,10 @@ p {
   color: #26a69a;
 }
 
+.fontinc{
+  font-size: 17px;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -52,6 +56,12 @@ p {
   .navbar-fixed {
     display: none;
   }
+  #sottotitolo {
+    margin-top: -2%;
+  }
+  #download-button {
+    margin-top: -3%;
+  }  
 }
 
 @media only screen and (max-width : 600px) {
@@ -65,7 +75,10 @@ p {
     display: none;
   }
   .servizio-icons {
-  margin-top: 20px;
+    margin-top: 20px;
+  }
+  #titolo {
+    margin-top: 1%;
   }
 }
 
@@ -80,14 +93,14 @@ footer.page-footer {
   margin: 0;
 }
 
-#titolo {
-  margin-top: 1%;
-}
-
 #download-button2 {
   width: 100%;
 }
 
 #download-button3 {
   margin-top: 3%;
+}
+
+#indicazioni {
+  line-height: 1.5rem;
 }
