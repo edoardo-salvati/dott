@@ -28,6 +28,10 @@ p {
   font-size: 17px;
 }
 
+.fontinc2, #fontinc3 {
+  font-size: 20px;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -53,14 +57,14 @@ p {
   #index-banner .section {
     top: 10%;
   }
-  .navbar-fixed {
+  .navbar-fixed, .img-desktop, .img2-mobile {
     display: none;
   }
   #sottotitolo {
-    margin-top: -2%;
+    margin-top: -1%;
   }
   #download-button {
-    margin-top: -3%;
+    margin-top: -2%;
   }  
 }
 
@@ -68,10 +72,16 @@ p {
   #index-banner .section {
     top: 0;
   }
+  .img2-desktop {
+    display: none;
+  }
+  .img2-mobile {
+    display: initial;
+  }
 }
 
-@media only screen and (min-width : 992px) {
-  .navbar-unfixed {
+@media only screen and (min-width : 992px) {  
+  .navbar-unfixed, .img-mobile, .img2-mobile {
     display: none;
   }
   .servizio-icons {
@@ -103,4 +113,12 @@ footer.page-footer {
 
 #indicazioni {
   line-height: 1.5rem;
+}
+
+.text-hover:hover{
+  text-decoration: underline;
+}
+
+.icon-hover:hover{
+  color: #0645AD;
 }
