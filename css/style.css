@@ -21,7 +21,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #444;/*#26a69a;*/
 }
 
 .fontinc{
@@ -49,6 +49,11 @@ p {
   line-height: 2rem;
 }
 
+#cv li, #orari li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -57,15 +62,9 @@ p {
   #index-banner .section {
     top: 10%;
   }
-  .navbar-fixed, .img-desktop, .img2-mobile {
+  .navbar-fixed, .img2-mobile {
     display: none;
-  }
-  #sottotitolo {
-    margin-top: -1%;
-  }
-  #download-button {
-    margin-top: -1%;
-  }  
+  } 
 }
 
 @media only screen and (max-width : 600px) {
@@ -78,10 +77,19 @@ p {
   .img2-mobile {
     display: initial;
   }
+  #titolo {
+    margin-bottom: 6%;
+  }
+  #sottotitolo {
+    margin-top: -4%;
+  }
+  #download-button {
+    margin-top: -2%;
+  } 
 }
 
 @media only screen and (min-width : 992px) {  
-  .navbar-unfixed, .img-mobile, .img2-mobile {
+  .navbar-unfixed, .img2-mobile {
     display: none;
   }
   .servizio-icons {
@@ -103,6 +111,14 @@ footer.page-footer {
   margin: 0;
 }
 
+#footer-1 {
+  background-color: #264653;
+}
+
+#footer-2 {
+  background-color: #325d6e;
+}
+
 #download-button2 {
   width: 100%;
 }
@@ -120,5 +136,5 @@ footer.page-footer {
 }
 
 .icon-hover:hover{
-  color: #0645AD;
+  color: orange; /*#0645AD;*/
 }
