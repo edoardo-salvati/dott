@@ -32,6 +32,10 @@ p {
   font-size: 20px;
 }
 
+.home-text {
+  color: #e76f51; /*#e9c46a;*/
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -115,6 +119,10 @@ footer.page-footer {
   background-color: #264653;
 }
 
+.footer-text {
+  color: #f4a261;
+}
+
 #footer-2 {
   background-color: #325d6e;
 }
@@ -127,7 +135,7 @@ footer.page-footer {
   margin-top: 3%;
 }
 
-#indicazioni {
+#indicazioni, #orari {
   line-height: 1.5rem;
 }
 
