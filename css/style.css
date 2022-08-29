@@ -7,7 +7,7 @@
  */
 
 nav ul a,
-nav .brand-logo {
+nav .brand-logo, .sidenav {
   color: #444;
   font-family: "Lobster", serif;
 }
@@ -58,6 +58,10 @@ p {
   list-style-position: inside;
 }
 
+.servizio-icons {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -66,7 +70,7 @@ p {
   #index-banner .section {
     top: 10%;
   }
-  .navbar-fixed, .img2-mobile {
+  .logo-desktop, .img2-mobile {/*.navbar-fixed, */
     display: none;
   } 
 }
@@ -93,11 +97,8 @@ p {
 }
 
 @media only screen and (min-width : 992px) {  
-  .navbar-unfixed, .img2-mobile {
+  .logo-mobile, .img2-mobile {/*.navbar-unfixed, */
     display: none;
-  }
-  .servizio-icons {
-    margin-top: 20px;
   }
   #titolo {
     margin-top: 1%;
